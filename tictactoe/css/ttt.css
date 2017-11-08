@@ -1,0 +1,57 @@
+body  {
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ttt{
+  margin: 0 auto;
+}
+
+ul {
+  width: 50%;
+  margin: 0 auto;
+}
+
+li{
+  background: #842d2d;
+  width: 33%;
+  float: left;
+  display: inline-block;
+  content: 'hi';
+  color: #fff;
+  height: 25vh;
+  border: 10px solid #888;
+  box-sizing: border-box;
+}
+li:hover{
+  background: yellow;
+}
+
+li.o{
+  color: #000;
+  font-size: 5em;
+  background: #fff;
+}
+
+li.x{
+  color: #000;
+  font-size: 5em;
+  background: purple;
+}
+.game-over ul li {
+  background-color: #FFF;
+  color:red;
+}
+
+.winner-x .x,
+.winner-o .o{
+  background-color: limegreen;
+  color: #fff;
+}
+
+.winner-o li,
+.winner-x li{
+  background: #FFF;
+  color: red;
+}
